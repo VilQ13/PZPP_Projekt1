@@ -1,0 +1,24 @@
+
+/*ANTONIO*/
+
+@font-face {
+    font-family: 'HelveticaNeueRegular';
+    src:
+            url('../fonts/HelHelveticaNeueRegular/HelveticaNeueRegular.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/HelveticaNeueRegular/HelveticaNeueRegular.woff') format('woff'),
+            url('../fonts/HelveticaNeueRegular/HelveticaNeueRegular.ttf')  format('truetype'),
+            url('../fonts/HelveticaNeueRegular/HelveticaNeueRegular.svg#Antonio-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueMedium';
+    src:
+            url('../fonts/HelveticaNeueMedium/HelveticaNeueMedium.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/HelveticaNeueMedium/HelveticaNeueMedium.woff') format('woff'),
+            url('../fonts/HelveticaNeueMedium/HelveticaNeueMedium.ttf')  format('truetype'),
+            url('../fonts/HelveticaNeueMedium/HelveticaNeueMedium.svg#Antonio-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -94,6 +94,27 @@
         <mxCell id="1BVvCawltoUE3o5dG_yL-44" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="1BVvCawltoUE3o5dG_yL-43">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1BVvCawltoUE3o5dG_yL-45" value="Odbywa się" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1BVvCawltoUE3o5dG_yL-48" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="1BVvCawltoUE3o5dG_yL-45" target="1BVvCawltoUE3o5dG_yL-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="360" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1BVvCawltoUE3o5dG_yL-49" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="1BVvCawltoUE3o5dG_yL-48">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BVvCawltoUE3o5dG_yL-50" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="1BVvCawltoUE3o5dG_yL-45" target="1BVvCawltoUE3o5dG_yL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="280" as="sourcePoint" />
+            <mxPoint x="360" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1BVvCawltoUE3o5dG_yL-51" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="1BVvCawltoUE3o5dG_yL-50">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

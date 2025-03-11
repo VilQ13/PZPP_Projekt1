@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "4OjMmK4g6p/OxsZ1//GYkP5AUC0nsY+spX8xnHp4yJfc5ZUBG0SCG5/qmrZd8/vfDaKWH3usGd34Xqrp94QWBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Костя\\source\\repos\\Backend_ZPP\\Backend_ZPP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Костя\\.nuget\\packages\\pdfpig\\0.1.10\\pdfpig.0.1.10.nupkg.sha512",
+    "C:\\Users\\Костя\\.nuget\\packages\\selenium.support\\4.29.0\\selenium.support.4.29.0.nupkg.sha512",
+    "C:\\Users\\Костя\\.nuget\\packages\\selenium.webdriver\\4.29.0\\selenium.webdriver.4.29.0.nupkg.sha512",
+    "C:\\Users\\Костя\\.nuget\\packages\\selenium.webdriver.chromedriver\\134.0.6998.8800\\selenium.webdriver.chromedriver.134.0.6998.8800.nupkg.sha512",
+    "C:\\Users\\Костя\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Костя\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

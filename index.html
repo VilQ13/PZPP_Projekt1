@@ -1,188 +1,104 @@
-<!DOCTYPE html>
-<html lang="ru">
+﻿<!DOCTYPE html>
+<html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ATH</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz wyszukiwania</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header>
+
     <header>
-        <div class="container">
-          <nav>
-            <ul>
-              <li class="dropdown">
-                <a href="#">O NAS</a>
-                <div class="dropdown-content">
-                  <a href="#">DZIEKANAT</a>
-                  <a href="#">NAUCICELI</a>
-                  <a href="#">KONTAKT</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <a href="#">ZADAJ PUTANIE</a>
-                <div class="dropdown-content">
-                  <a href="#">KONKURSY</a>
-                  <a href="#">STUDENTY</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <a href="#">1 stopien</a>
-                <div class="dropdown-content">
-                  <a href="#">dokumenty</a>
-                  <a href="#">Najlepszi studenty</a>
-                  <a href="#">Egzaminu</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <a href="#">2 stopien</a>
-                <div class="dropdown-content">
-                    <a href="#">dokumenty</a>
-                    <a href="#">Najlepszi studenty</a>
-                    <a href="#">Egzaminu</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <a href="#">Doktorant</a>
-                <div class="dropdown-content">
-                    <a href="#">dokumenty</a>
-                    <a href="#">Najlepszi studenty</a>
-                    <a href="#">Egzaminu</a>
-                </div>
-              </li>
-            </ul>
-          </nav>
+        <div class="header-container">
+            <span>ScrapperUBB</span>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">O nas</a>
+                <a href="#">Inne</a>
+            </nav>
         </div>
-      </header>
-  </header>
+    </header>
 
+    <div class="form-container">
+        <form id="search-form" action="http://localhost:5096/api/scraper/scrape" method="POST">
+            <label for="faculty">Wydział:</label>
+            <select id="faculty" name="faculty">
+                <option value="">Wybierz wydział</option>
+                <option value="0">Wydział Budowy Maszyn i Informatyki</option>
+                <option value="1">Wydział Humanistyczno-Społeczny</option>
+                <option value="2">Wydział Inżynierii Materiałów, Budownictwa i Środowiska</option>
+                <option value="3">Wydział Nauk o Zdrowiu</option>
+                <option value="4">Wydział Zarządzania i Transportu</option>
+            </select>
 
-    <main>
-        <div class="container">
-            <div class="block">
-                <h2>Blok 1</h2>
-                <div class="dropdown">
-                    <button class="dropbtn">Wybierz wydział</button>
-                    <div class="dropdown-content">
-                        <div class="dropdown-container">
-                            <label for="wydzial">Wydział</label>
-                            <select id="wydzial">
-                                <option>Al</option>
-                                <option>Bea</option>
-                                <option>Cam</option>
-                                <option>Dee</option>
-                                <option>Ed</option>
-                            </select>
-                        </div>
-                        <div class="tree">
-                            <p>📂 Wydział Budowy Maszyn i Informatyki</p>
-                            <ul>
-                                <li>📂 Niestacjonarne Wieczorowe</li>
-                                <li>📂 Niestacjonarne Zaoczne</li>
-                                <li>📂 Stacjonarne
-                                    <ul>
-                                        <li>Automatyka i robotyka S</li>
-                                        <li>Eksploatacja pojazdów S</li>
-                                        <li>Erasmus</li>
-                                        <li>Industrial Engineering S</li>
-                                        <li>Informatyka S</li>
-                                        <li>Mechanika i budowa maszyn S</li>
-                                        <li>Mechatronika S</li>
-                                        <li>Zarządzanie i inżynieria produkcji S</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="block">
-                <h2>Blok 1</h2>
-                <div class="dropdown">
-                    <button class="dropbtn">Wybierz wydział</button>
-                    <div class="dropdown-content">
-                        <div class="dropdown-container">
-                            <label for="wydzial">Wydział</label>
-                            <select id="wydzial">
-                                <option>Al</option>
-                                <option>Bea</option>
-                                <option>Cam</option>
-                                <option>Dee</option>
-                                <option>Ed</option>
-                            </select>
-                        </div>
-                        <div class="tree">
-                            <p>📂 Wydział Budowy Maszyn i Informatyki</p>
-                            <ul>
-                                <li>📂 Niestacjonarne Wieczorowe</li>
-                                <li>📂 Niestacjonarne Zaoczne</li>
-                                <li>📂 Stacjonarne
-                                    <ul>
-                                        <li>Automatyka i robotyka S</li>
-                                        <li>Eksploatacja pojazdów S</li>
-                                        <li>Erasmus</li>
-                                        <li>Industrial Engineering S</li>
-                                        <li>Informatyka S</li>
-                                        <li>Mechanika i budowa maszyn S</li>
-                                        <li>Mechatronika S</li>
-                                        <li>Zarządzanie i inżynieria produkcji S</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                </div>
+            <label for="form">Forma studiów</label>
+            <select id="form" name="form">
+                <option value="">Wybierz formę studiów</option>
+                <option value="0">Niestacjonarne wieczorowe</option>
+                <option value="1">Niestacjonarne zaoczne</option>
+                <option value="2">Stacjonarne</option>
+            </select>
 
-    
-            <div class="block">
-                <h2>Blok 1</h2>
-                <div class="dropdown">
-                    <button class="dropbtn">Wybierz wydział</button>
-                    <div class="dropdown-content">
-                        <div class="dropdown-container">
-                            <label for="wydzial">Wydział</label>
-                            <select id="wydzial">
-                                <option>Al</option>
-                                <option>Bea</option>
-                                <option>Cam</option>
-                                <option>Dee</option>
-                                <option>Ed</option>
-                            </select>
-                        </div>
-                        <div class="tree">
-                            <p>📂 Wydział Budowy Maszyn i Informatyki</p>
-                            <ul>
-                                <li>📂 Niestacjonarne Wieczorowe</li>
-                                <li>📂 Niestacjonarne Zaoczne</li>
-                                <li>📂 Stacjonarne
-                                    <ul>
-                                        <li>Automatyka i robotyka S</li>
-                                        <li>Eksploatacja pojazdów S</li>
-                                        <li>Erasmus</li>
-                                        <li>Industrial Engineering S</li>
-                                        <li>Informatyka S</li>
-                                        <li>Mechanika i budowa maszyn S</li>
-                                        <li>Mechatronika S</li>
-                                        <li>Zarządzanie i inżynieria produkcji S</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                </div>
-    </main>
-    
-    </body>
-    </html>
+            <label for="course">Kierunek:</label>
+            <select id="course" name="course">
+                <option value="">Wybierz kierunek</option>
+                <option value="0">Automatyka i robotyka S</option>
+                <option value="1">Eksploatacja pojazdów S</option>
+                <option value="2">Erasmus</option>
+                <option value="3">Industrial Engineering S</option>
+                <option value="4">Informatyka S</option>
+                <option value="5">Mechanika i budowa maszyn S</option>
+                <option value="6">Mechatronika S</option>
+                <option value="7">Zarządzanie i inżynieria produkcji S</option>
+            </select>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 ATH</p>
+            <label for="degree">Stopień:</label>
+            <select id="degree" name="degree">
+                <option value="">Wybierz stopień</option>
+                <option value="0">Inf/S/ I stopień</option>
+                <option value="1">Inf/S/ II stopień</option>
+            </select>
+
+            <label for="semester">Semestr:</label>
+            <select id="semester" name="semester">
+                <option value="">Wybierz semestr</option>
+                <option value="0">Inf/S/Ist/1sem</option>
+                <option value="1">Inf/S/Ist/2sem</option>
+                <option value="2">Inf/S/Ist/3sem</option>
+                <option value="3">Inf/S/Ist/4sem</option>
+                <option value="4">Inf/S/Ist/5sem</option>
+                <option value="5">Inf/S/Ist/6sem</option>
+                <option value="6">Inf/S/Ist/7sem</option>
+            </select>
+
+            <label for="specialization">Specjalność:</label>
+            <select id="specialization" name="specialization">
+                <option value="">Wybierz specjalność</option>
+                <option value="0">Inf/S/Ist/6sem/IOiSI</option>
+            </select>
+
+            <label for="group">Grupa:</label>
+            <select id="group" name="group">
+                <option value="">Wybierz grupę</option>
+                <option value="0">Inf/S/Ist/6sem/1gr/IO</option>
+                <option value="1">Inf/S/Ist/6sem/2gr/IO</option>
+                <option value="2">Inf/S/Ist/6sem/3gr/IO</option>
+            </select>
+
+            <label for="exactgroup">Dokładna grupa:</label>
+            <select id="exactgroup" name="exactgroup">
+                <option value="">Wybierz dokładną grupę</option>
+                <option value="Inf/S/Ist/6sem/1gr/a/IO">Inf/S/Ist/6sem/1gr/a/IO</option>
+                <option value="Inf/S/Ist/6sem/1gr/b/IO">Inf/S/Ist/6sem/1gr/b/IO</option>
+            </select>
+
+            <button type="submit">Wyszukaj</button>
+        </form>
     </div>
-  </footer>
+
+    <!-- Контейнер для вывода результатов -->
+    <div class="results-container" id="results"></div>
+
+    <script src="/home/script.js"></script> <!-- Подключение скрипта -->
 </body>
 </html>

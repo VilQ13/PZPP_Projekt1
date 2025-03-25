@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Backend_REST_API_ZPP.props" />
+</Project>

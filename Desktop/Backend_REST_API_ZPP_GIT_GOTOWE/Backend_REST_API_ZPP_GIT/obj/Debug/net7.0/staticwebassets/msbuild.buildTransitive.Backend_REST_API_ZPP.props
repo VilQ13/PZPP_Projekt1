@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Backend_REST_API_ZPP.props" />
-</Project>

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "KpvZXcwtUzExTYywJzeMJIIEA+Hj3pCcaznVbgjspn0=",
+  "Source": "Backend_REST_API_ZPP",
+  "BasePath": "_content/Backend_REST_API_ZPP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Backend_REST_API_ZPP\\wwwroot",
+      "Source": "Backend_REST_API_ZPP",
+      "ContentRoot": "C:\\Users\\Костя\\Desktop\\Backend_REST_API_ZPP_GIT\\wwwroot\\",
+      "BasePath": "_content/Backend_REST_API_ZPP",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Костя\\Desktop\\Backend_REST_API_ZPP_GIT\\wwwroot\\home\\index.html",
+      "SourceId": "Backend_REST_API_ZPP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Костя\\Desktop\\Backend_REST_API_ZPP_GIT\\wwwroot\\",
+      "BasePath": "_content/Backend_REST_API_ZPP",
+      "RelativePath": "home/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Костя\\Desktop\\Backend_REST_API_ZPP_GIT\\wwwroot\\home\\script.js",
+      "SourceId": "Backend_REST_API_ZPP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Костя\\Desktop\\Backend_REST_API_ZPP_GIT\\wwwroot\\",
+      "BasePath": "_content/Backend_REST_API_ZPP",
+      "RelativePath": "home/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\Костя\\Desktop\\Backend_REST_API_ZPP_GIT\\wwwroot\\home\\style.css",
+      "SourceId": "Backend_REST_API_ZPP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Костя\\Desktop\\Backend_REST_API_ZPP_GIT\\wwwroot\\",
+      "BasePath": "_content/Backend_REST_API_ZPP",
+      "RelativePath": "home/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home\\style.css"
+    }
+  ]
+}
